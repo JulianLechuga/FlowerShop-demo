@@ -1,29 +1,33 @@
 import { motion } from 'framer-motion';
 import './Services.css';
+import weddingImg from '../assets/images/wedding.png';
+import birthdayImg from '../assets/images/birthday.png';
+import funeralImg from '../assets/images/funeral.png';
+import plantsImg from '../assets/images/plants.png';
 
 const services = [
   {
     title: 'Ramos de Boda',
     description: 'Diseños exclusivos para el día más especial de tu vida.',
-    image: '/images/wedding.png',
+    image: weddingImg,
     link: '#bodas'
   },
   {
     title: 'Cumpleaños',
     description: 'Sorprende con una explosión de color y fragancia.',
-    image: '/images/birthday.png',
+    image: birthdayImg,
     link: '#cumpleaños'
   },
   {
     title: 'Arreglos Fúnebres',
     description: 'Homenajes respetuosos y elegantes en momentos difíciles.',
-    image: '/images/funeral.png',
+    image: funeralImg,
     link: '#funeral'
   },
   {
     title: 'Plantas de Interior',
     description: 'Lleva la naturaleza a tu hogar con nuestra selección premium.',
-    image: '/images/plants.png',
+    image: plantsImg,
     link: '#plantas'
   }
 ];

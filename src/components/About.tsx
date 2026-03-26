@@ -1,11 +1,12 @@
 import './About.css';
+import aboutImg from '../assets/images/hero.png';
 
 const About = () => {
   return (
     <section id="nosotros" className="section-padding about">
       <div className="container about-grid">
         <div className="about-image">
-          <img src="/images/hero.png" alt="Nuestra Floristería" className="main-img" />
+          <img src={aboutImg} alt="Nuestra Floristería" className="main-img" />
           <div className="about-experience">
             <span className="years">25</span>
             <span className="exp-text">Años de Pasión Floral</span>

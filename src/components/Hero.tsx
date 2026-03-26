@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 import './Hero.css';
+import heroImage from '../assets/images/hero.png';
 
 const Hero = () => {
   return (
-    <section id="inicio" className="hero">
+    <section id="inicio" className="hero" style={{ backgroundImage: `url(${heroImage})` }}>
       <div className="hero-overlay"></div>
       <div className="container hero-container">
         <motion.div 
